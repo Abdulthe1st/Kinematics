@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="questions.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinematic Equations</title>
+  </head>
+
+  <body>
+    <h1 id="firsth">Kinematic Equations</h1>
+    <div id="button-set-2">
+      <p>
+        <button class="btns" id="first-e">
+          <img class="kin-img" src="images/Kinematics1.jpg" alt="Kinematics1" />
+        </button>
+        <button class="btns" id="second-e">
+          <img class="kin-img" src="images/kinematics2.jpg" alt="kinematics2" />
+        </button>
+        <button class="btns" id="third-e">
+          <img
+            class="kin-img"
+            src="images//kinematics3.jpg"
+            alt="kinematics3"
+          />
+        </button>
+        <button class="btns" id="fourth-e">
+          <img class="kin-img" src="images/kinematics4.jpg" alt="kinematics4" />
+        </button>
+      </p>
+    </div>
+    <h1 id="e-text">Equation #1</h1>
+    <p>
+      In this section, you will be required to choose from one of the formulas
+      on top.
+    </p>
+    <p>
+      Choosing one will give you the oppertunity to calculate using that formula
+      and will give you the answer in the purple box.
+    </p>
+    <h2 id="imgplace">
+      <img id="topimg" src="images/Kinematics1.jpg" alt="Equation" />
+    </h2>
+
+    <div>
+      <p>
+        <span id="vi-span">v-initial = </span>
+        <input type="number" id="v-initial" />
+      </p>
+      <p>
+        <span id="vf-span">v-final = </span>
+        <input type="number" id="v-final" />
+      </p>
+      <p><span id="a-span"> a = </span> <input type="number" id="var-a" /></p>
+      <p><span id="t-span"> t = </span> <input type="number" id="var-t" /></p>
+      <p><span id="x-span">△x = </span> <input type="number" id="var-x" /></p>
+    </div>
+
+    <p id="answr">ANSWER</p>
+    <div id="button-set-1">
+      <p>
+        <button class="btns1" id="Calculate">Solve for final velocity</button>
+        <button class="btns1" id="Calculate-2">Solve for Velocity²</button>
+        <button class="btns1" id="Calculate-3">Solve for X</button>
+        <button class="btns1" id="Calculate-4">Solve for X #4</button>
+      </p>
+    </div>
+    <strong><hr /></strong>
+
+    <h2>Ready to test your knowledge?</h2>
+    <p>
+      You will be asked different questions in this section. Make sure to have
+      your answer to <strong>ONE</strong> decimal place.
+    </p>
+
+    <p>Make sure to give your full answer.</p>
+
+    <p><button id="reload">Retry</button></p>
+
+    <div id="questions-container"></div>
+
+    <p id="check-2"></p>
+
+    <p id="countdown">10</p>
+
+    <p><button id="check">Check</button></p>
+    <p>
+      questions are from
+      <a
+        target="_blank"
+        href="https://www.usna.edu/Users/physics/jamer/_files/documents/KinematicSolutions.pdf"
+        >KinematicSolutions</a
+      >.
+    </p>
+
+    <p>
+      <button id="show1" class="shower">Show Calculator</button>
+      <button id="hide1" class="shower">Hide Calculator</button>
+    </p>
+
+    <div id="full">
+      <input id="display" readonly />
+      <div id="keys">
+        <button class="special" onclick="appendToDisplay('+')">+</button>
+        <button class="hide" onclick="appendToDisplay('1')">1</button>
+        <button class="hide" onclick="appendToDisplay('2')">2</button>
+        <button class="hide" onclick="appendToDisplay('3')">3</button>
+        <button class="special" onclick="appendToDisplay('-')">-</button>
+        <button class="hide" onclick="appendToDisplay('4')">4</button>
+        <button class="hide" onclick="appendToDisplay('5')">5</button>
+        <button class="hide" onclick="appendToDisplay('6')">6</button>
+        <button class="special" onclick="appendToDisplay('*')">X</button>
+        <button class="hide" onclick="appendToDisplay('7')">7</button>
+        <button class="hide" onclick="appendToDisplay('8')">8</button>
+        <button class="hide" onclick="appendToDisplay('9')">9</button>
+        <button class="special" onclick="appendToDisplay('/')">÷</button>
+        <button class="hide" id="period" onclick="appendToDisplay('.')">
+          .
+        </button>
+        <button class="hide" onclick="appendToDisplay('0')">0</button>
+        <button class="hide" id="power" onclick="appendToDisplay('**')">
+          x^y
+        </button>
+        <button class="special" onclick="clearDisplay()">C</button>
+        <button class="hide" id="percent" onclick="appendToDisplay2('/100')">
+          %
+        </button>
+        <button class="hide" id="plusminus">-/+</button>
+        <button class="hide" id="calc" onclick="calculate()">=</button>
+        <button class="hide" id="leftbracket">(</button>
+        <button class="hide" id="rightbracket">)</button>
+      </div>
+    </div>
+  </body>
+</html>

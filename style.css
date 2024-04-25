@@ -1,0 +1,219 @@
+html {
+  background-image: url(images/numbers.jpg);
+}
+
+body {
+  width: 800px;
+  margin: auto;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(images/grid.jpg);
+}
+
+#firsth {
+  color: orangered;
+}
+
+button {
+  cursor: pointer;
+}
+
+#headimg {
+  width: 600px;
+}
+
+button {
+  font-size: 18px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 60px;
+  background-color: black;
+  color: antiquewhite;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  font-size: 20px;
+  transition: 1s;
+  background-color: yellowgreen;
+  color: black;
+}
+
+#button-set-1 {
+  display: none;
+  cursor: pointer;
+}
+
+#button-set-2 {
+  margin: auto;
+  cursor: pointer;
+}
+
+.kin-img {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+}
+
+.btns {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+}
+
+.btns:hover {
+  cursor: pointer;
+  background-color: goldenrod;
+  transition: all 0.5s;
+}
+
+input {
+  width: 70px;
+}
+
+input:hover {
+  border: 1px solid tomato;
+  width: 75px;
+  transition: all 0.5s;
+}
+
+#answr {
+  border: 2px solid purple;
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#questions-container {
+  border: 3px solid black;
+  width: 80%;
+  margin: auto;
+}
+
+.btns1 {
+  background-color: black;
+  color: white;
+  margin: auto;
+  border-radius: 15px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.btns1:hover {
+  background-color: yellowgreen;
+  color: black;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+#topimg {
+  border: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+/* CALCULATOR */
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 125px);
+  background-color: darkgray;
+  margin: auto;
+  text-align: right;
+  width: 480px;
+  border-radius: 40px;
+
+  background-size: cover;
+}
+
+#display {
+  cursor: pointer;
+  height: 60px;
+  width: 300px;
+  font-size: 25px;
+  margin-bottom: 25px;
+  background-color: gray;
+  margin-top: 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+#display:hover {
+  width: 330px;
+  height: 65px;
+  background-color: wheat;
+  color: black;
+  transition: all 1s;
+  border-radius: 15px;
+}
+
+.special {
+  background-color: orange;
+}
+
+#calc {
+  background-color: darkgreen;
+}
+
+#full {
+  background-color: black;
+  width: 480px;
+  margin: auto;
+  border-radius: 40px;
+}
+
+#list {
+  display: inline-block;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 18px;
+  color: blue;
+  transition: all 0.5s;
+}
+
+#period {
+  background-color: darkblue;
+}
+
+#percent {
+  background-color: blueviolet;
+}
+
+#plusminus {
+  background-color: blueviolet;
+}
+
+#power {
+  color: blueviolet;
+}
+
+.shower {
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  width: 110px;
+}
+
+.shower:hover {
+  background-color: wheat;
+  font-size: 20px;
+  color: black;
+  width: 115px;
+}

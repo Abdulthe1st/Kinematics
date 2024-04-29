@@ -6,7 +6,7 @@ run?
 <p><input type="number" name="" id="in1" />m</p>`;
 
 let q2 = `<p id="p2">
-A plane starts from ret and accelerates uniformly over a time of
+A plane starts from rest and accelerates uniformly over a time of
 <span id="n3">20 </span>s for a distance of <span id="n4">300</span>m .
 Determine the plane's acceleration.
 </p>
